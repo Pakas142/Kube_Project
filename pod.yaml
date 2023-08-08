@@ -1,4 +1,4 @@
-piVersion: v1
+apiVersion: v1
 kind: Service
 metadata:
     name: loadbalancer-svc
@@ -27,5 +27,5 @@ metadata:
                                                                                   spec:
                                                                                           containers:
                                                                                                     - name: hello
-image: iammithran/newimage:latest
+image: pakas142/kube0808:latest
 imagePullPolicy: Always
